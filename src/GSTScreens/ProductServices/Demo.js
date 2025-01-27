@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Demo.css";
 
 function Payment() {
-  // Commit in second branch
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
